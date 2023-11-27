@@ -4,7 +4,7 @@ let taxiFareApiUrl = 'https://taxifare-xuwlcxv2nq-ew.a.run.app'; // replace with
 const centralCoordinates = [-74.00597, 40.71427]; // starting position [lng, lat]
 
 if (window.location.href.includes('https://taxifare.lewagon.com')) {
-  taxiFareApiUrl = 'https://taxifare.lewagon.ai/predict';
+  taxiFareApiUrl = 'https://taxifare-xuwlcxv2nq-ew.a.run.app';
 }
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoia3Jva3JvYiIsImEiOiJja2YzcmcyNDkwNXVpMnRtZGwxb2MzNWtvIn0.69leM_6Roh26Ju7Lqb2pwQ';
